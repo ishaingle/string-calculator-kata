@@ -1,3 +1,4 @@
+require_relative 'custom_error.rb'
 class StringCalculator
 	def add(numbers)
 		return 0 if numbers.empty?
